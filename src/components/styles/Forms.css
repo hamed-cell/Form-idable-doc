@@ -1,0 +1,274 @@
+/* IMPORT FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* TITRE DES "formName" */
+p {
+  font-size: 1.5rem;
+  font-weight: 900;
+  margin: 0 0 1em 0;
+  text-transform: uppercase;
+}
+
+/* STYLE CSS DU "BasicForm.jsx"*/
+
+.basic-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 24em;
+    min-height: 20em;
+    border-radius: 20px;
+    box-shadow: #0366d64d 0px 0px 0px 3px;
+    padding: 2em;
+  }
+
+  .basic-form > * {
+    align-self: center;
+  }
+
+  .basic-form input {
+    margin: 8px 0;
+    border: 2px solid #0366d64d;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 20em;
+    height: 3em;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+  }
+
+  .basic-form input[type="radio"] {
+    height: 1em;
+    border: 1px solid #0366d64d;
+    border-width: 10px solid;
+  }
+
+  .basic-form input[type="checkbox"] {
+    height: 1em;
+    border: 1px solid #0366d64d;
+    border-width: 10px solid
+  }
+
+  .basic-form select {
+    margin: 8px 0;
+    border: 2px solid #0366d64d;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 20em;
+    height: 3em;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    background: #fff;
+  }
+
+  .basic-form select option {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    background: #0276FF;
+    color: #fff;
+  }
+
+  .basic-form select:hover {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    background: #ffff;
+    color: #0276FF;
+  }
+
+  .basic-form label {
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: Arial;
+    align-self: flex-start;
+    margin-left: 2.5em;
+  }
+
+  .basic-form button {
+    background-color: #0276FF;
+    width: 15em;
+    border-radius: 8px;
+    border-style: none;
+    box-shadow: rgba(255, 255, 255, 0.26) 0 1px 2px inset;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    line-height: 1.15;
+    margin: 10px;
+    padding: 10px 21px;
+    text-align: center;
+    text-transform: none;
+    transition:
+      color 0.13s ease-in-out,
+      background 0.13s ease-in-out,
+      opacity 0.13s ease-in-out,
+      box-shadow 0.13s ease-in-out;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+
+  .basic-form button:active {
+    background-color: #0366d64d;
+  }
+
+  .basic-form button:hover {
+    background-color: #035A03;
+    font-weight: 600;
+  }
+
+  .basic-form h1 {
+    font-family: "Fascinate Inline", Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 3em;
+  }
+
+
+/* STYLE CSS DU "AnimalForm.jsx"*/
+
+.animal-form {
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 20em;
+    border-radius: 20px;
+    box-shadow: #8a6249 3px 3px;
+    background-color: #f5d7b7;
+    padding: 1em;
+    height: 50%;
+    gap: 0.5em;
+    font-weight: 500;
+}
+
+/* BUTTON */
+.animal-form button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #cfa67b;
+  color: #fff;
+  border: 2px solid #cfa67b;
+}
+
+.animal-form button:hover {
+  background-color: #8a6249;
+  border-color: #8a6249
+}
+
+.animal-form button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(207, 166, 123, 0.4);
+}
+
+/* INPUTS */
+.animal-form input {
+  border: 2px solid #8a6e5d;
+  background-color: #f1e5d9;
+  color: #4e3832;
+  padding: 8px 12px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: border-color 0.3s ease;
+  width: 100%;
+}
+
+.animal-form input:focus {
+  border-color: #4e3832;
+  outline: none; 
+}
+
+/* CHECKBOX */
+.animal-form input[type="checkbox"] {
+  appearance: none;
+  width: 2vw;
+  height: 2vh;
+  border: 2px solid #cfa67b;
+  border-radius: 4px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.animal-form input[type="checkbox"]:checked {
+  background-color: #cfa67b;
+}
+
+/* STYLE CSS DU "OceanForm.jsx"*/
+
+.ocean-form {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 20em;
+  border-radius: 20px;
+  box-shadow: #4e89ae 3px 3px;
+  background-color: #a7c3f7;
+  padding: 1em;
+  height: 50%;
+  gap: 0.5em;
+  font-weight: 500;
+}
+
+/* BUTTON */
+.ocean-form button {
+padding: 10px 20px;
+font-size: 16px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+background-color: #4e8cff;
+color: #fff;
+border: 2px solid #4e8cff;
+}
+
+.ocean-form button:hover {
+background-color: #3078ff;
+border-color: #3078ff
+}
+
+.ocean-form button:focus {
+outline: none;
+box-shadow: 0 0 0 3px rgba(78, 140, 255, 0.4); /* Effet de mise en évidence sur le focus */
+}
+
+/* INPUTS */
+.ocean-form input {
+border: 2px solid #4e89ae;
+background-color: #eff6fc;
+color: #2a5766;
+padding: 8px 12px;
+border-radius: 4px;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+transition: border-color 0.3s ease;
+width: 100%;
+}
+
+.ocean-form input:focus {
+border-color: #2a5766;
+outline: none; 
+}
+
+/* CHECKBOX */
+.ocean-form input[type="checkbox"] {
+appearance: none;
+width: 2vw;
+height: 2vh;
+border: 2px solid #4e8cff;
+border-radius: 4px;
+background-color: transparent;
+cursor: pointer;
+}
+
+.ocean-form input[type="checkbox"]:checked {
+background-color: #3078ff;
+}
