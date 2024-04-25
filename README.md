@@ -1,7 +1,8 @@
 <p align="center">
   <img src="https://cdn.discordapp.com/attachments/702664242943492207/1232960794111639602/40a79c93-3214-4bc7-872a-03789829ac2e_1.webp?ex=662b5bb8&is=662a0a38&hm=6990be9121e727da157213c167864ee1bcfe037b80f3d5860288a3de8d243d2b&" width="211" height="182" alt="Formidable.js" />
 </p>
-
+[![Stable Release](https://img.shields.io/npm/v/@hamed-attar/formidable.svg)](https://npm.im/@hamed-attar/formidable)
+https://badgen.net/badge/speed/blazing%20🔥/green
 <h3 align="center">
   Importez facilement des formulaires sur mesure et concentrez-vous sur l'essentiel de vos projets.
 </h3>
